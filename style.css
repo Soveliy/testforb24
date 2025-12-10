@@ -14,7 +14,7 @@
     opacity: 1;
     pointer-events: all;
 }
-.landing-editor .popup {
+.landing-editor .popup-allert-cst {
     display: flex;
     position: relative;
     z-index: inherit;
