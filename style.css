@@ -8,6 +8,10 @@
     z-index: 9999;
 }
 
+.landing-editor .popup-content {
+    display: flex;
+    position: relative;
+}
 .popup-content {
     background: #fff;
     max-width: 600px;
@@ -40,11 +44,6 @@
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-}
-
-.popup-qr img {
-    width: 140px;
-    height: 140px;
 }
 
 @media (max-width: 600px) {
