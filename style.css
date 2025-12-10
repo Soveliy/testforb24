@@ -8,7 +8,7 @@
     z-index: 9999;
 }
 
-.landing-editor .popup-content {
+.landing-editor .popup {
     display: flex;
     position: relative;
 }
