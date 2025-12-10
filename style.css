@@ -10,6 +10,7 @@
     opacity: 0;
     transition: 0.3s;
     pointer-events: none;
+    overflow: auto;
 }
 .popup-allert-cst.show {
     opacity: 1;
