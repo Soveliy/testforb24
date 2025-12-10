@@ -1,4 +1,4 @@
-.popup {
+.popup-allert-cst {
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.55);
@@ -10,7 +10,7 @@
     transition: 0.3s;
     pointer-events: none;
 }
-.popup.show {
+.popup-allert-cst.show {
     opacity: 1;
     pointer-events: all;
 }
