@@ -26,12 +26,13 @@
 
 .popup-close {
     position: absolute;
-    top: -9px;
+    top: -3px;
     right: 10px;
     background: none;
     border: none;
     font-size: 44px;
     cursor: pointer;
+    line-height: 1;
 }
 
 .popup-btn {
