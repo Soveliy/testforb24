@@ -2,16 +2,24 @@
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.55);
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     z-index: 9999;
+    opacity: 0;
+    transition: 0.3s;
+    pointer-events: none;
 }
-
+.popup.show {
+    opacity: 1;
+    pointer-events: all;
+}
 .landing-editor .popup {
     display: flex;
     position: relative;
     z-index: inherit;
+    opacity: 1;
+    pointer-events: all;
 }
 .popup-content {
     background: #fff;
